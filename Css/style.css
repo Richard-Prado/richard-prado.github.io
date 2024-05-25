@@ -1,0 +1,14 @@
+body{
+    background-color: #0d0d32;
+    border: none;
+    margin: 0;
+}
+#div001{
+    width: 1900px;
+    height: 950px;
+    background-image: url("../images/background.jpg");
+    border: none;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: blur(1.5em);
+}
