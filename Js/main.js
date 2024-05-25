@@ -1,3 +1,3 @@
 function btn_projects(){
-    location.href = "Html/Projetos.html"
+    location.href = "../Projetos.html"
 }

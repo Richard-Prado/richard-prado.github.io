@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Common Pixel';
+    src: url('../fonts/CommonPixel.ttf') format('truetype');
+}
 
 /* TAGS */
 body{
@@ -13,11 +17,13 @@ button{
     border-radius: 10px;
     box-shadow: 7px 6px rgba(13, 13, 50, 0.58);
 }
-p{
-    font-family: "Microsoft New Tai Lue", serif;
-    font-size: 25px;
+h1{
+    font-family: 'Common Pixel', sans-serif;
+    font-size: 20px;
     margin: 0;
     border: 2px;
+    -webkit-font-smoothing: none;
+
 }
 
 /* IDS */
