@@ -1,8 +1,26 @@
+
+/* TAGS */
 body{
     background-color: #0d0d32;
     border: none;
     margin: 0;
+    overflow: hidden;
 }
+button{
+    margin: 5px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 7px 6px rgba(13, 13, 50, 0.58);
+}
+p{
+    font-family: "Microsoft New Tai Lue", serif;
+    font-size: 25px;
+    margin: 0;
+    border: 2px;
+}
+
+/* IDS */
 #div001{
     width: 1900px;
     height: 950px;
@@ -10,5 +28,27 @@ body{
     border: none;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    filter: blur(1.5em);
+    filter: blur(10px);
 }
+#buttons {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.82);
+}
+
+#profile-content{
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #000000;
+}
+
